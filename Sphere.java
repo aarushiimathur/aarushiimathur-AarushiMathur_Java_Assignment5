@@ -8,3 +8,7 @@ class Sphere extends Shape implements Volume{
 	public double calculatePerimeter(){
 		return 0; 
 	}
+	public double calculateVolume(){
+		return 3.14 * dim_one * dim_one *dim_two;
+	}
+}
