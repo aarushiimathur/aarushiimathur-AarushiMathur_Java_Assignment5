@@ -5,3 +5,6 @@ class Sphere extends Shape implements Volume{
 	public double calculateArea(){
 		return (4 * 3.14 * dim_one * dim_one);
 	}
+	public double calculatePerimeter(){
+		return 0; 
+	}
