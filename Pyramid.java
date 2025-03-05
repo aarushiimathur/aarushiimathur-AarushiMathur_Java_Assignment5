@@ -8,3 +8,6 @@ class Pyramid extends Shape implements Volume{
         double lateralArea = 2 * (dim_one * slantHeight / 2) + 2 * (dim_two * slantHeight / 2);
         return baseArea + lateralArea;
 	}
+	public double calculatePerimeter(){
+		return 2 * (dim_one + dim_two);
+	}
