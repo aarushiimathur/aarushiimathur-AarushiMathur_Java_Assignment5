@@ -11,3 +11,8 @@ class Pyramid extends Shape implements Volume{
 	public double calculatePerimeter(){
 		return 2 * (dim_one + dim_two);
 	}
+	public double calculateVolume(){
+		return (1.0 / 3) * dim_one * dim_two * dim_three;
+	}
+	
+}
