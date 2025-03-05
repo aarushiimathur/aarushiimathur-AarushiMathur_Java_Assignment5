@@ -21,4 +21,10 @@ abstract class Shape{
 		this.dim_three = dim_three;
 		this.num_sides = num_sides;
 	}
+	abstract public double calculateArea();
+	abstract public double calculatePerimeter();
 	
+	public int getNumSides(){
+		return num_sides;
+	}
+}
